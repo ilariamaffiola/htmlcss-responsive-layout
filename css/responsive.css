@@ -1,1 +1,35 @@
 /* Soluzione qui */
+ @media screen and (min-width:768px){
+    #topbar{
+        justify-content: left;
+    }
+    main{
+        padding: 45px;
+    }
+    .recipe-origin{
+        display: inline-block;
+    }
+    .recipe-name{
+        font-size: 30px;
+    }
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px 100px;
+    }
+    .pin{
+        position: relative;
+        right: 6px;
+    }
+    .social-networks .btn{
+        padding: 10px 50px;
+    }
+    .ads{
+        display: block;
+    }
+    .presentation img{
+        float: left;
+        margin-right: 10px;
+    }
+
+}
