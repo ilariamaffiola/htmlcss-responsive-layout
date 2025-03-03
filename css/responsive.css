@@ -33,3 +33,38 @@
     }
 
 }
+
+@media screen and (min-width:992px){
+    .recipe-name{
+        font-size: 35px;
+    }
+    .recipe-card{
+        display: flex;
+    }
+    .quick-notes ul{
+        display: block;
+    }
+    .pin{
+        right: 0;
+    }
+    .recipe-info{
+        width: 40%;
+    }
+    .social-networks .label{
+        display: inline;
+    }
+    .social-networks .btn{
+        padding: 8px 35px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+    } 
+    address{
+        text-align: left;
+    }
+    footer ul{
+        text-align: right;
+    }
+}  
+
