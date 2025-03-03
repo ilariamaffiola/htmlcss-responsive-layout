@@ -1,4 +1,13 @@
 /* Soluzione qui */
+@media screen and (min-width:576px){
+    .presentation img{
+        float: left;
+        margin-right: 10px;
+    }
+    .social-networks .btn{
+        padding: 10px 37px;  
+    }
+}
  @media screen and (min-width:768px){
     #topbar{
         justify-content: left;
@@ -15,7 +24,7 @@
     .quick-notes ul{
         display: flex;
         flex-wrap: wrap;
-        gap: 0px 100px;
+        gap: 0px 95px;
     }
     .pin{
         position: relative;
@@ -54,7 +63,7 @@
         display: inline;
     }
     .social-networks .btn{
-        padding: 8px 35px;
+        padding: 8px 30px;
     }
     footer{
         display: flex;
